@@ -1,0 +1,13 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.green{
+    background-color: #4BA904;
+}
+a {
+    color: #4BA904;
+}

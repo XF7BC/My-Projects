@@ -1,0 +1,54 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    
+    height: auto;
+}
+.green{
+    background-color: #4BA904;
+}
+a {
+    color: #4BA904;
+}
+
+.notification-dot{
+    margin-top: -15px;
+}
+.profile{
+    margin-top: -20px;
+}
+nav{position: fixed;}
+.nav-link{
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #000000;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+.nav-link:hover{
+    color: black;
+
+}
+/* nav css ends here */
+#section-a{
+    background-image: url(/Images/Ellipse\ 72.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    padding-top: 150px;
+}

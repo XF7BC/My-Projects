@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    
+    height: auto;
+}
+.signup-button{
+    background-color: none;
+    border: 1px solid black;
+    width: 150px;
+}
+.text-center{
+    padding-top: 4%;
+}
+.section-a{
+    padding-top: 6%;
+}
+.button{
+    border: 1px solid black;
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+}
+.tiny{
+    font-size: 12px;
+}
+.mini-header{
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.mini-content{
+    font-size: 12px;
+}
+.options{
+    background-color: #4BA90A;
+    color: white;
+}
+.comments{
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.client{
+    margin-bottom: -30px;
+}
+.green{
+    background-color: #4BA904;
+}
+
+.notification-dot{
+    margin-top: -15px;
+}
+.profile{
+    margin-top: -20px;
+}
+nav{
+    position: fixed;
+}
+.nav-link{
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #000000;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+.nav-link:hover{
+    color: black;
+
+}
+/* nav css ends here */
+#section-a{
+    background-image: url(/Images/Ellipse\ 72.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+
+}
